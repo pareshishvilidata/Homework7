@@ -1,0 +1,51 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    max-width: inherit;
+    width: inherit;
+    width: 100%;
+    background: #262626;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.headdiv {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.headtext {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.headtext1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #DCB47A;
+}
+
+.headtext2 {
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+.headtext3 {
+    padding-right: 68px;
+}
+
+i {
+    color: #FFFFFF;
+    display: flex;
+    padding-left: 705px;
+}
