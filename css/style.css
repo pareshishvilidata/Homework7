@@ -1,8 +1,12 @@
+/* კონტეინერი */
+
 .container {
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
 }
+
+/* ჰედერი */
 
 header {
     max-width: inherit;
@@ -52,7 +56,9 @@ header {
     padding-left: 705px;
 }
 
-.section {
+/* სექცია 1 */
+
+.section1 {
     width: 100%;
     height: 1080px;
     padding-top: 130px;
@@ -115,6 +121,8 @@ header {
     padding-right: 30px;
 }
 
+/* სექცია 2 */
+
 .section2 {
     width: 70%;
 }
@@ -149,6 +157,8 @@ header {
     height: 390px;
     padding-top: 335px;
 }
+
+/* სექცია 3 */
 
 .section3 {
     width: 70%;
@@ -219,4 +229,50 @@ header {
     font-size: 16px;
     padding-right: 225px;
     padding-top: 15px;
+}
+
+/* ფუტერი */
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background: #262626;
+    margin-top: 250px;
+}
+
+.foottitle {
+    font-weight: 600;
+    font-size: 60px;
+    color: #FFFFFF;
+    padding-top: 70px;
+    text-align: center;
+}
+
+span {
+    color: #DCB47A;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.foottext {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footbutton {
+    background: #DCB47A;
+    border-radius: 60px;
+    width: 205px;
+    height: 65px;
+    margin-left: 860px;
+    margin-top: 35px;
+}
+
+.buttontext2 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
 }
